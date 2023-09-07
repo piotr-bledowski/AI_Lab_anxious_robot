@@ -23,4 +23,11 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+# Install worlds and in general Gazebo-related files
+install(
+  DIRECTORY
+    worlds/
+  DESTINATION share/${PROJECT_NAME}/worlds
+)
+
 ament_package()

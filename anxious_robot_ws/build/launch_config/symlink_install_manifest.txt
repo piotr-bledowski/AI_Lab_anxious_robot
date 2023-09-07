@@ -1,4 +1,6 @@
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/install/launch_config/share/launch_config/launch/gazebo_world.launch.py
 /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/install/launch_config/share/launch_config/launch/rviz.launch.py
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/install/launch_config/share/launch_config/launch/rviz_gazebo.launch.py
 /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/install/launch_config/share/launch_config/config/default_rviz_config.rviz
 /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/install/launch_config/share/ament_index/resource_index/package_run_dependencies/launch_config
 /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/install/launch_config/share/ament_index/resource_index/parent_prefix_path/launch_config

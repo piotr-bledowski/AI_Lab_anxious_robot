@@ -12,6 +12,16 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     # Paths to packages
-    robot_description_pkg_path = get_package_share_directory('robot_description')
-    launch_config_pkg_path = get_package_share_directory('launch_config')
-    simulation_pkg_path = get_package_share_directory('simulation')
+    pkg_robot_description = get_package_share_directory('robot_description')
+    pkg_launch_config = get_package_share_directory('launch_config')
+    pkg_simulation = get_package_share_directory('simulation')
+
+    start_gazebo = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(pkg_launch_config, 'launch', 'gazebo_world.launch.py'),
+        )
+    )
+
+    return LaunchDescription([
+        start_gazebo
+    ])
