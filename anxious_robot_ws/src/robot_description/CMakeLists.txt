@@ -23,4 +23,11 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+# Install urdf files
+install(
+  DIRECTORY
+    urdf/
+  DESTINATION share/${PROJECT_NAME}/urdf
+)
+
 ament_package()

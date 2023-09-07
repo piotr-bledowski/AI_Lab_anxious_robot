@@ -9,15 +9,15 @@ from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
-    ddr_path = get_package_share_path('differential_drive_robot')
-    default_model_path = ddr_path / 'differential_drive_robot.xacro.urdf'
-    default_rviz_config_path = ddr_path / 'default_rviz_config.rviz'
+    robot_description_pkg_path = get_package_share_path('robot_description')
+    launch_config_pkg_path = get_package_share_path('launch_config')
+
 
     gui_arg = DeclareLaunchArgument(name='gui', default_value='true', choices=['true', 'false'],
                                     description='Flag to enable joint_state_publisher_gui')
-    model_arg = DeclareLaunchArgument(name='model', default_value=str(default_model_path),
+    model_arg = DeclareLaunchArgument(name='model', default_value=str(robot_description_pkg_path / 'urdf/differential_drive_robot.xacro.urdf'),
                                       description='Absolute path to robot urdf file')
-    rviz_arg = DeclareLaunchArgument(name='rvizconfig', default_value=str(default_rviz_config_path),
+    rviz_arg = DeclareLaunchArgument(name='rvizconfig', default_value=str(launch_config_pkg_path / 'config/default_rviz_config.rviz'),
                                      description='Absolute path to rviz config file')
 
     robot_description = ParameterValue(Command(['xacro ', LaunchConfiguration('model')]), value_type=str)

@@ -1,2 +1,1 @@
-source;share/launch_config/environment/ament_prefix_path.sh
-source;share/launch_config/environment/path.sh
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/ament_cmake_environment_hooks/local_setup.dsv
