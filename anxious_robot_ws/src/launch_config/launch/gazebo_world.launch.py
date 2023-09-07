@@ -12,13 +12,13 @@ from launch_ros.actions import Node
 def generate_launch_description():
     # Paths to packages
     pkg_simulation = get_package_share_directory('simulation')
-    pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
+    pkg_ros_gz_sim = get_package_share_directory('ros_ign_gazebo')
 
     gz_sim = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')
+            os.path.join(pkg_ros_gz_sim, 'launch', 'ign_gazebo.launch.py')
         ),
-        launch_arguments={'gz_args': PathJoinSubstitution([
+        launch_arguments={'ign_args': PathJoinSubstitution([
             pkg_simulation,
             'worlds',
             'empty.sdf'
