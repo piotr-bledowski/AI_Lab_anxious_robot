@@ -28,7 +28,14 @@ def generate_launch_description():
         )
     )
 
+    spawn_robot = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(pkg_launch_config, 'launch', 'spawn_robot.launch.py'),
+        )
+    )
+
     return LaunchDescription([
         start_rviz,
-        start_gazebo
+        start_gazebo,
+        spawn_robot
     ])
