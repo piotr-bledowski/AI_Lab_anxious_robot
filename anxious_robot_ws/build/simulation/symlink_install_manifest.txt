@@ -1,3 +1,4 @@
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/install/simulation/share/simulation/worlds/empty.sdf
 /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/install/simulation/share/ament_index/resource_index/package_run_dependencies/simulation
 /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/install/simulation/share/ament_index/resource_index/parent_prefix_path/simulation
 /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/install/simulation/share/simulation/environment/ament_prefix_path.sh

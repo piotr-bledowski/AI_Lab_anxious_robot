@@ -16,6 +16,12 @@ def generate_launch_description():
     pkg_launch_config = get_package_share_directory('launch_config')
     pkg_simulation = get_package_share_directory('simulation')
 
+    start_rviz = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(pkg_launch_config, 'launch', 'rviz.launch.py'),
+        )
+    )
+
     start_gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_launch_config, 'launch', 'gazebo_world.launch.py'),
@@ -23,5 +29,6 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        start_rviz,
         start_gazebo
     ])

@@ -310,6 +310,9 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(DIRECTORY "worlds/" "DESTINATION" "share/simulation/worlds")
+ament_cmake_symlink_install_directory("/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/src/simulation" DIRECTORY "worlds/" "DESTINATION" "share/simulation/worlds")
+
 # install(FILES "/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/simulation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/simulation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/src/simulation" FILES "/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/simulation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/simulation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
