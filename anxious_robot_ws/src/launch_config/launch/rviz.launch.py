@@ -9,6 +9,7 @@ from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
+    # Paths to packages
     robot_description_pkg_path = get_package_share_path('robot_description')
     launch_config_pkg_path = get_package_share_path('launch_config')
 
