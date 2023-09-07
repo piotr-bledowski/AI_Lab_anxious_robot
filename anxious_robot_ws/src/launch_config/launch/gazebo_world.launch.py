@@ -27,5 +27,10 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        DeclareLaunchArgument(
+            'world',
+            default_value=[os.path.join(pkg_simulation, 'worlds', 'empty.sdf'), ''],
+            description='SDF world file'
+        ),
         gz_sim
     ])
