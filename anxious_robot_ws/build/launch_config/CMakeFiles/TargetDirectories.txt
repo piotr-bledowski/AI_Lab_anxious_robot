@@ -1,0 +1,9 @@
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/CMakeFiles/uninstall.dir
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/CMakeFiles/launch_config_uninstall.dir
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/CMakeFiles/test.dir
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/CMakeFiles/edit_cache.dir
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/CMakeFiles/rebuild_cache.dir
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/CMakeFiles/list_install_components.dir
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/CMakeFiles/install.dir
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/CMakeFiles/install/local.dir
+/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/CMakeFiles/install/strip.dir
