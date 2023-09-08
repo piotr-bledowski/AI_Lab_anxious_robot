@@ -1,7 +1,7 @@
 # AI_Lab_anxious_robot
 
 ## Jak uruchomić projekt
-**Ze względu na dysktrybucję ROSa, projekt zadziała wyłącznie na Ubuntu Jammy.**
+**Ze względu na dysktrybucję ROSa projekt zadziała wyłącznie na Ubuntu Jammy.**
 
 ### Co trzeba zainstalować (najlepiej posłużyć się dokumentacjami):
 - ROS Humble Hawksbill
