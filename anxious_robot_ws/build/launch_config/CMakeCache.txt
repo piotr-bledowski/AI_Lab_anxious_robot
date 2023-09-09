@@ -320,6 +320,15 @@ ament_pep257_BIN:FILEPATH=/opt/ros/humble/bin/ament_pep257
 ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
 //Value Computed by CMake
+bringup_BINARY_DIR:STATIC=/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config
+
+//Value Computed by CMake
+bringup_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+bringup_SOURCE_DIR:STATIC=/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/src/launch_config
+
+//Value Computed by CMake
 launch_config_BINARY_DIR:STATIC=/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config
 
 //Value Computed by CMake
