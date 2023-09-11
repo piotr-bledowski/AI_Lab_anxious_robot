@@ -21,7 +21,8 @@ def generate_launch_description():
 
     base_robot_name = 'diff_drive_robot'
     # Gazebo needs a unique entity name
-    entity_name = base_robot_name + '-' + str(random.random())
+    entity_name = base_robot_name
+    #entity_name = base_robot_name + '-' + str(random.random())
 
     # Compile xacro
     robot_description = xacro.process_file(robot_description_path)
