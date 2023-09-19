@@ -1,0 +1,17 @@
+[0.021s] Invoking command in '/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config -- -j6 -l6
+[0.041s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.159s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.207s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.207s]   ament_package_xml() package name 'launch_config' in '/package.xml' does not
+[0.207s]   match current PROJECT_NAME 'bringup'.  You must call project() with the
+[0.207s]   same package name before.
+[0.208s] Call Stack (most recent call first):
+[0.208s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.208s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.208s] 
+[0.208s] [0m
+[0.208s] -- Configuring incomplete, errors occurred!
+[0.208s] See also "/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config/CMakeFiles/CMakeOutput.log".
+[0.209s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.211s] Invoked command in '/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config -- -j6 -l6
