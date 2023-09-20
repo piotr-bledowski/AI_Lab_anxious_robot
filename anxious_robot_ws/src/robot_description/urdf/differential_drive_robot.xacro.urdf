@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="diff_bot">
-    <xacro:include filename="properties.xacro.urdf" />
-    <xacro:include filename="macros.xacro.urdf" />
-    <xacro:include filename="gazebo_elements.xacro.urdf" />
+    <xacro:include filename="properties.xacro" />
+    <xacro:include filename="macros.xacro" />
+    <xacro:include filename="gazebo_elements.xacro" />
+    <xacro:include filename="sensors.xacro" />
 
     <material name="blue">
         <color rgba="0 0 0.8 1" />
