@@ -15,7 +15,7 @@
 2. należy wykonywać poniższe komendy z poziomu folderu "anxious_robot_ws", czyli workspace projektu
 3. kompilacja komendą `colcon build` (w innym miejscu niż anxious_robot_ws ta komenda stworzy nowe foldery "build", "install" i "log", stąd poprzedni punkt)
 4. coś co zawsze robi się po kompilacji, `source install/setup.bash` to jest plik generowany przez colcon podczas kompilacji
-5. `ros2 launch launch_config rviz_gazebo.launch.py` uruchomienie wizualizacji / symulacji jednym z plików launch, po nazwie można się domyślić który co uruchomi, taki najpełniejszy launch z komendy powyżej uruchamia RViz z osobnym oknem Joint State Publisher na manualne ruszanie stawami robota i równolegle Gazebo z pustym światem, w którym jest spawnowany robot (Na ten moment to co dzieje się w Gazebo nie jest synchronizowane z RViz, i.e. stan robota, w szczególności ruch kół)
+5. `ros2 launch bringup rviz_gazebo.launch.py` uruchomienie wizualizacji / symulacji jednym z plików launch, po nazwie można się domyślić który co uruchomi, taki najpełniejszy launch z komendy powyżej uruchamia RViz z osobnym oknem Joint State Publisher na manualne ruszanie stawami robota i równolegle Gazebo z pustym światem, w którym jest spawnowany robot (Na ten moment to co dzieje się w Gazebo nie jest synchronizowane z RViz, i.e. stan robota, w szczególności ruch kół)
 
 ### Manualne sterowanie robotem
 Można publikować na topic /cmd_vel prosto z Terminala komendą ros2 topic pub, ale wygodniejszą opcją jest użycie ROSowego narzędzia do publikowania wiadomości Twist klawiaturą.
