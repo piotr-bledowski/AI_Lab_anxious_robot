@@ -16,6 +16,14 @@
         <material>Gazebo/Yellow</material>
     </gazebo>
 
+    <gazebo reference="front_lidar_arm">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="front_lidar_link">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
     <gazebo>
         <plugin name="diff_drive_control" filename="libgazebo_ros_diff_drive.so">      
             <!-- Update rate in Hz -->
