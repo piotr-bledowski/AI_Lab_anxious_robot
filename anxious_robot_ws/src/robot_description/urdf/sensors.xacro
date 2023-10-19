@@ -21,18 +21,18 @@
     </link>
 
     <link name="front_lidar_link">
-        <xacro:box_inertia m="0.1" w="0.025" h="0.025" d="0.025" />
+        <xacro:box_inertia m="0.1" w="${front_lidar_size}" h="${front_lidar_size}" d="${front_lidar_size}" />
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <box size="0.025 0.025 0.025" />
+                <box size="${front_lidar_size} ${front_lidar_size} ${front_lidar_size}" />
             </geometry>
             <!-- <material name="blue" /> -->
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <box size="0.025 0.025 0.025" />
+                <box size="${front_lidar_size} ${front_lidar_size} ${front_lidar_size}" />
             </geometry>
         </collision>
     </link>
