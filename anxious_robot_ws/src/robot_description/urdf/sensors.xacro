@@ -46,6 +46,6 @@
     <joint name="front_lidar_joint" type="fixed">
         <parent link="front_lidar_arm" />
         <child link="front_lidar_link" />
-        <origin xyz="${front_lidar_arm_length/2 - 0.01} 0 -0.01" rpy="0 0 0" />
+        <origin xyz="${front_lidar_arm_length/2 - front_lidar_size/2-0.002} 0 -${front_lidar_size}" rpy="0 0 0" />
     </joint>
 </robot>

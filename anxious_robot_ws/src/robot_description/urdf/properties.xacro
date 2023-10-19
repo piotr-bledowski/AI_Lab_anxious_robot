@@ -9,5 +9,5 @@
     <xacro:property name="caster_wheel_radius" value="0.04" />
     <xacro:property name="caster_wheel_offset" value="0.1" />
     <xacro:property name="front_lidar_arm_length" value="0.06" />
-    <xacro:property name="front_lidar_size" value="0.015" />
+    <xacro:property name="front_lidar_size" value="0.01" />
 </robot>
