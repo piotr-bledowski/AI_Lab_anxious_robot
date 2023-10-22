@@ -1,5 +1,0 @@
-[0.021s] Invoking command in '/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config -- -j6 -l6
-[0.046s] [0mCMake Error: The source directory "/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/src/launch_config" does not exist.
-[0.046s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.047s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.049s] Invoked command in '/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/build/launch_config -- -j6 -l6

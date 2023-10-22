@@ -1,1 +1,0 @@
-/home/piotr/Desktop/AI_Lab/ROS/AI_Lab_anxious_robot/anxious_robot_ws/src/launch_config/launch/spawn_robot.launch.py

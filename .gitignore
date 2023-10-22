@@ -1,4 +1,4 @@
-.vscode
-build
-install
-log
+anxious_robot_ws/.vscode/
+anxious_robot_ws/build/
+anxious_robot_ws/install/
+anxious_robot_ws/log/
