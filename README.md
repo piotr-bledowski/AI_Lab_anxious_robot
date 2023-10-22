@@ -3,6 +3,8 @@
 ## Jak uruchomić projekt
 **Ze względu na dysktrybucję ROSa projekt najlepiej uruchomić na Ubuntu Jammy (22.04). Czy zadziała na Windowsie / innych systemach, tego nie wiem, nie zaszkodzi spróbować.**
 
+##Ważne: pamiętajcie żeby w .gitignore były foldery install, log i build, nie chcemy tego w repozytorium, to ma być tworzone u każdego lokalnie przy kompilacji
+
 ### Co trzeba zainstalować:
 - ROS Humble Hawksbill
 - (być może) colcon, nie jestem pewien czy instaluje się automatycznie z ROSem, to jest narzędzie do kompilacji projektu
