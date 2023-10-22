@@ -6,6 +6,7 @@
 ### Co trzeba zainstalować:
 - ROS Humble Hawksbill
 - (być może) colcon, nie jestem pewien czy instaluje się automatycznie z ROSem, to jest narzędzie do kompilacji projektu
+- Gazebo ROS Packages - narzędzia do integracji ROSa z Gazebo `sudo apt install ros-humble-gazebo-ros-pkgs`
 - ROS Navigation2 stack `sudo apt install ros-humble-nav2` oraz `sudo apt install ros-hubmle-navigation2`
 - Gazebo (Dokładnie Gazebo Classic, instalowane `sudo apt install gazebo`, to jest wprawdzie przestarzała i niewspierana dystrybucja, ale działa dużo lepiej niż nowsze)
 - Python i CMake, ale one są raczej domyślnie zainstalowane na Ubuntu
